@@ -1,0 +1,86 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.background": "#1B1B1B",
+        "editor.foreground": "#FFFFFF",
+        "editorCursor.foreground": "#FFFFFF",
+        "editorLineNumber.foreground": "#444444",
+        "editorLineNumber.activeForeground": "#FF9000",
+
+        "editorIndentGuide.background1": "#2A2A2A",
+        "editorIndentGuide.activeBackground1": "#008067",
+
+        "sideBar.background": "#1B1B1B",
+        "sideBar.foreground": "#FFFFFF",
+        "sideBar.border": "#2A2A2A",
+
+        "statusBar.background": "#1B1B1B",
+        "statusBar.foreground": "#008067",
+
+        "tab.activeBackground": "#1B1B1B",
+        "tab.activeForeground": "#FFFFFF",
+        "tab.inactiveBackground": "#222222",
+        "tab.inactiveForeground": "#888888",
+
+        "terminal.background": "#1B1B1B",
+        "terminal.foreground": "#FFFFFF",
+        "terminalCursor.foreground": "#FFFFFF",
+        "terminal.ansiBlack": "#1B1B1B",
+        "terminal.ansiRed": "#FF5F5F",
+        "terminal.ansiGreen": "#008067",
+        "terminal.ansiYellow": "#FF9000",
+        "terminal.ansiBlue": "#61AFEF",
+        "terminal.ansiMagenta": "#C678DD",
+        "terminal.ansiCyan": "#56B6C2",
+        "terminal.ansiWhite": "#FFFFFF"
+    },
+    
+    "editor.tokenColorCustomizations": {
+      "comments": "#5C5C5C",
+      "functions": "#FF9000",
+      "keywords": "#008067",
+      "variables": "#E5C07B",
+      "strings": "#98C379",
+      "numbers": "#D19A66"
+    },
+
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "C_Cpp.formatting": "clangFormat",
+    "clang-format.executable": ".clang-format",
+    "clang-format.fallbackStyle": "Google",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "makefile.configureOnOpen": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "debug.onTaskErrors": "abort",
+    "workbench.activityBar.location": "top",
+    "chat.commandCenter.enabled": false,
+    "C_Cpp.intelliSenseEngine": "default",
+    "debug.console.fontSize": 20,
+    "editor.inlayHints.fontSize": 16,
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 22,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.fontLigatures": false,
+    "cSpell.userWords": [
+        "Amsta",
+        "rssi",
+        "SHELLLIB",
+        "TDMA"
+    ],
+    "files.autoSave": "afterDelay",
+    "workbench.editor.empty.hint": "hidden",
+    "git.blame.editorDecoration.enabled": true,
+    "git.confirmSync": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "python.analysis.typeCheckingMode": "standard",
+    "python.defaultInterpreterPath": "/usr/bin/python3"
+}

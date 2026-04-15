@@ -2,6 +2,9 @@ if not set -q TMUX
     set -gx TERM xterm-256color
 end
 
+set -gx EDITOR vim
+set -gx VISUAL vim
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
@@ -50,3 +53,10 @@ bind \cr open_ranger
 
 # Created by `pipx` on 2025-07-17 07:37:15
 set PATH $PATH /home/badek2000/.local/bin
+
+# pyenv
+set -gx PYENV_ROOT $HOME/.pyenv
+fish_add_path $PYENV_ROOT/bin
+if type -q pyenv
+    pyenv init - fish | source
+end

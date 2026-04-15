@@ -1,0 +1,4 @@
+firefox
+flatpak
+gnome-software-plugin-flatpak
+fonts-jetbrains-mono

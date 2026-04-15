@@ -1,0 +1,15 @@
+stow
+git
+curl
+wget
+unzip
+ca-certificates
+fish
+tmux
+ranger
+vim
+kitty
+ripgrep
+fd-find
+bat
+fzf
