@@ -50,12 +50,12 @@ bash scripts/setup-ssh-github.sh
 | `--snapshots` | Installs **snapper** + enables timeline/cleanup timers. No-op on non-btrfs roots. |
 | `--defaults`  | `chsh` login shell to fish, `git config --global core.editor vim`, prompts for git user.name/user.email if unset. |
 
-Base packages in `manifests/apt-base.txt` (installed on every run): `stow git curl wget fish tmux ranger vim kitty ripgrep fd-find bat eza fzf` plus essentials.
+Base packages in `manifests/apt-base.txt` (installed on every run): `stow git curl wget fish tmux ranger vim kitty ripgrep fd-find bat eza fzf xclip nala` plus essentials. (`config.fish` aliases `apt` to `nala` and uses `xclip` for its `clip`/`clipfile` helpers.)
 
 ## Vim
 
 - Config at `vim/.vimrc`, colorscheme at `vim/.vim/colors/kitty.vim`.
-- The colorscheme matches `~/.config/kitty/theme.conf` (bg `#1B1B1B`, green `#008067`, orange `#FF9000`, red `#FF5F5F`, etc.).
+- The colorscheme matches `~/.config/kitty/kitty.conf` (bg `#1B1B1B`, green `#008067`, orange `#FF9000`, red `#FF5F5F`, etc.).
 - `EDITOR=vim` and `VISUAL=vim` exported in `fish/config.fish`; `git config --global core.editor vim` set by `--defaults`.
 
 ## Firefox note

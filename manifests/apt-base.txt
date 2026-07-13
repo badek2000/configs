@@ -12,4 +12,7 @@ kitty
 ripgrep
 fd-find
 bat
+eza
 fzf
+xclip
+nala
